@@ -1,9 +1,0 @@
-package org.dawin.controller;
-
-
-@Controller
-@Log4j
-@RequestMapping("/board")
-public class AlarmController {
-
-}

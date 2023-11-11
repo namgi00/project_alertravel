@@ -1,9 +1,0 @@
-package org.dawin.domain;
-
-
-@ToString
-@Setter
-@Getter
-public class AlarmLvlCriteria {
-
-}

@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\backend_workspace\04_projectdawin\.metadata\.plugins\org.eclipse.jdt.core
-3129328917.index
-1865797976.index
-3767364414.index
-3536262535.index

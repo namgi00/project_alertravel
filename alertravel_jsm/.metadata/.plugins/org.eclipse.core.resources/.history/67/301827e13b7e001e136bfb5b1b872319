@@ -1,7 +1,0 @@
-package org.galapagos.config;
-
-import javax.servlet.ServletContextListener;
-
-public class MyContextListener	 implements ServletContextListener{
-
-}

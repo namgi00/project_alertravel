@@ -1,8 +1,0 @@
-package org.galapagos.domain;
-
-public class AlarmVO {
-
-	private String alarmLvl;
-	private String continent_cd;
-	
-}

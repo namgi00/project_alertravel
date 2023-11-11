@@ -1,8 +1,0 @@
-
-public class CurrentVO {
-	String kftcDealBasR;
-	String curNm;
-	
-	 "kftc_deal_bas_r": "868.62",
-	    "cur_nm": "일본 옌"
-}
