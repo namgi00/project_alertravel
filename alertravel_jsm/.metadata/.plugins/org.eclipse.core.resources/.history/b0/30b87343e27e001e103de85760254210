@@ -1,0 +1,11 @@
+package org.galapagos.service;
+
+import java.util.List;
+
+import org.dawin.domain.AlarmVO;
+
+public interface AlaramService {
+	
+	public List<AlarmVO> getList();
+
+}

@@ -1,0 +1,20 @@
+package org.galapagos.config;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+public class MyContextListener implements ServletContextListener{
+
+	@Override
+	public void contextInitialized(ServletContextEvent sce) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void contextDestroyed(ServletContextEvent sce) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

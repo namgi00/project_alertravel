@@ -1,0 +1,31 @@
+package org.galapagos.config;
+
+import java.util.Properties;
+
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
+
+public class SSHConnection {
+	private final static String HOST = "210.89.190.162";
+	private final static Integer PORT = 3398;
+	private final static String SSH_USER = "root";
+	private final static String SSH_PW = "ab13524613";
+	
+	private Session session;
+	
+	public void closeSSH() {
+		session.disconnect();
+	}
+	
+	public SSHConnection() {
+		try {
+			Properties config = new Properties();
+			config.put("StrictHostKeyChecking", "no");
+			JSch jsch = new JSch();
+			session = jsch.getSession(SSH_USER, HOST, PORT);
+			seesion.setPassword(SSH_PW);
+		} catch (Exception e) {
+
+		}
+	}
+}

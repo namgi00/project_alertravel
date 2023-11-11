@@ -1,0 +1,8 @@
+package org.galapagos.service;
+
+public interface AlaramService {
+	
+	public AlarmVO getList();
+	
+
+}

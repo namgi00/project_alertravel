@@ -1,0 +1,5 @@
+package org.galapagos.domain;
+
+public class AlarmVO {
+
+}

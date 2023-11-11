@@ -1,0 +1,9 @@
+package org.galapagos.service;
+
+public class AlaramService {
+	
+	@Autowired
+	private AlaramMapper mapper;
+	
+
+}

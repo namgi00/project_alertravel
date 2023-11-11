@@ -1,0 +1,38 @@
+package org.dawin.service;
+
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.log;
+
+import java.util.List;
+
+import org.dawin.domain.AlarmVO;
+import org.dawin.domain.Criteria;
+import org.dawin.mapper.AlarmMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import lombok.extern.log4j.Log4j;
+
+@Service
+@Log4j
+public class AlarmServiceImpl implements AlarmService{
+
+	@Autowired
+	private AlarmMapper mapper;
+	
+	@Override
+	public List<AlarmVO> getList() {
+		
+		log.info("getList....");
+		
+		return mapper.getList();
+	}
+
+	@Override
+	public List<AlarmVO> getList(Criteria cri) {
+		
+		log.info("get List with criteria: " + cri);
+		
+		return mapper.getListWithPaging(cri);
+	}
+
+}

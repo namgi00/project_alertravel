@@ -1,0 +1,34 @@
+package org.galapagos.domain;
+
+import java.util.Date;
+
+public class AlarmVO {
+
+	   int alarmLvl;
+
+	   private String continentCd;
+
+	   private String continentEngNm;
+
+	   private String continentNm;
+
+	   priavetString countryEngNm;
+
+	   String countryIsoAlp2;
+
+	   String countryNm;
+
+	   String dangMapDownloadUrl;
+
+	   String flagDownloadUrl;
+
+	   String mapDownloadUrl;
+
+	   String regionTy;
+
+	   String remark;
+
+	   Date writtenDt;
+
+	
+}

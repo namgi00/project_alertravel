@@ -1,0 +1,45 @@
+package org.galapagos.domain;
+
+public class AlarmVO {
+
+	 @SerializedName("alarm_lvl")
+	   int alarmLvl;
+
+	   @SerializedName("continent_cd")
+	   String continentCd;
+
+	   @SerializedName("continent_eng_nm")
+	   String continentEngNm;
+
+	   @SerializedName("continent_nm")
+	   String continentNm;
+
+	   @SerializedName("country_eng_nm")
+	   String countryEngNm;
+
+	   @SerializedName("country_iso_alp2")
+	   String countryIsoAlp2;
+
+	   @SerializedName("country_nm")
+	   String countryNm;
+
+	   @SerializedName("dang_map_download_url")
+	   String dangMapDownloadUrl;
+
+	   @SerializedName("flag_download_url")
+	   String flagDownloadUrl;
+
+	   @SerializedName("map_download_url")
+	   String mapDownloadUrl;
+
+	   @SerializedName("region_ty")
+	   String regionTy;
+
+	   @SerializedName("remark")
+	   String remark;
+
+	   @SerializedName("written_dt")
+	   Date writtenDt;
+
+	
+}

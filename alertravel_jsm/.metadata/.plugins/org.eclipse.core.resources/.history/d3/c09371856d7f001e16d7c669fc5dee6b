@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/security/tags"
+	prefix="sec"%>
+<%@ page session="false"%>
+
+<%@ include file="../layouts/header1.jsp"%>
+
+<section class="inner">
+<div class="country">
+	<div><img src="${alarm.flagDownloadUrl }" />
+		<div>${alarm.countryNm }(${alarm.countryEngNm })</div>
+		<div>${alarm.continentNm }</div>
+	</div>
+</div>
+
+<div class="country-image">
+	<img src="${alarm.mapDownloadUrl }" />
+</div>
+</section>	
+
+
+<%@ include file="../layouts/footer1.jsp"%>

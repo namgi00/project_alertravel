@@ -1,0 +1,6 @@
+package org.galapagos.mapper;
+
+public class AlarmMapper {
+
+	public List<AlarmVO> getList();
+}

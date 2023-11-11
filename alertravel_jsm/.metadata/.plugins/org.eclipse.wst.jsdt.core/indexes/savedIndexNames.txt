@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\backend_workspace\04_projectdawin\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+24248371.index
+923545038.index
+1281443422.index
+1168016706.index
+175257886.index
+511663704.index
+3129328917.index

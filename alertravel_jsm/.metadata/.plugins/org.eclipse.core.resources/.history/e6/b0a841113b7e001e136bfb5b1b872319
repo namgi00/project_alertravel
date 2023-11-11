@@ -1,0 +1,8 @@
+package org.galapagos.config;
+
+public class SSHConnection {
+	private final static String HOST = 
+			private final static Integer PORT = 
+			private final static String SSH_USER = 
+			private final static String SSH_PW = 
+}

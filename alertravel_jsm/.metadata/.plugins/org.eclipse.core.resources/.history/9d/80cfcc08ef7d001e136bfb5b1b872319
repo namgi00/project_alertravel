@@ -1,0 +1,7 @@
+
+public class CurrentVO {
+	
+	private String kftcDealBasR;
+	private String curNm;
+	
+}
