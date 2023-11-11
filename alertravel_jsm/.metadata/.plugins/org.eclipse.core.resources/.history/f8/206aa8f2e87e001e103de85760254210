@@ -1,0 +1,20 @@
+package org.dawin.domain;
+
+public class PageDTO {
+
+	private int startPage;
+	private int endPage;
+	private boolean prev;
+	private boolean next;
+	
+	private int total;
+	private Criteria cri;
+	
+	public pageDTO(Criteria cri, int total) {
+		
+		this.cri = cri;
+		this.total = total;
+	}
+	
+	this.endPage = (int) (Math.ceil(cri.getPageNum() / 10.0)) * 10;
+}

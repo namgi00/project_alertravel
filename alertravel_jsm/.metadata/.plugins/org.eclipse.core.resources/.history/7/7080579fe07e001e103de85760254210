@@ -1,0 +1,10 @@
+package org.galapagos.service;
+
+import org.galapagos.domain.AlarmVO;
+
+public interface AlaramService {
+	
+	public List<AlarmVO> getList();
+	
+
+}

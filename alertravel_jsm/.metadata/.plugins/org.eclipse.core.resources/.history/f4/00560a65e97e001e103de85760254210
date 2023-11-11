@@ -1,0 +1,8 @@
+package org.dawin.domain;
+
+@Getter
+@Setter
+@ToSTring
+public class Criteria {
+	
+}

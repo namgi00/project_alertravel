@@ -1,0 +1,5 @@
+package org.galapagos.mapper;
+
+public class MemberMapperTest {
+
+}
